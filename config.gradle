@@ -13,6 +13,7 @@ ext {
     versions = [
             "support-version": "1.0.0",
             "junit-version"  : "4.12",
+            "test-ext-version"  : "1.1.5",
     ]
     //support配置
     support = [
@@ -24,6 +25,7 @@ ext {
             'design'                  : "com.google.android.material:material:${versions["support-version"]}",
             'animated-vector-drawable': "androidx.vectordrawable:vectordrawable-animated:${versions["support-version"]}",
             'junit'                   : "junit:junit:${versions["junit-version"]}",
+            'test-ext'                : "androidx.test.ext:junit:${versions["test-ext-version"]}",
     ]
     //依赖第三方配置
     dependencies = [
